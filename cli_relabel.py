@@ -16,8 +16,8 @@ def main(input_folder, output_folder, lulc_path):
         os.makedirs(output_folder)
 
     # Get classified files
-    list_pnp = glob.glob(os.path.join(output_folder, "*2class*.tif"))
-    list_3commodity = glob.glob(os.path.join(output_folder, "*3class*.tif"))
+    list_pnp = sorted(glob.glob(os.path.join(output_folder, "*_2class_*.tif")))
+    list_3commodity = sorted(glob.glob(os.path.join(output_folder, "*_3class_*.tif")))
 
     print("list_pnp:", list_pnp)
     print("list_3commodity:", list_3commodity)
