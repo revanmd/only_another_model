@@ -1,0 +1,15 @@
+affine==2.4.0
+attrs==24.3.0
+certifi==2024.12.14
+click==8.1.8
+click-plugins==1.1.1
+cligj==0.7.2
+colorama==0.4.6
+joblib==1.4.2
+numpy==2.2.1
+pyparsing==3.2.1
+rasterio==1.4.3
+scikit-learn==1.6.0
+scipy==1.14.1
+shapely==2.0.6
+threadpoolctl==3.5.0
