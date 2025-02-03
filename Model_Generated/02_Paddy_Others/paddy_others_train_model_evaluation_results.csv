@@ -1,0 +1,7 @@
+Model,Accuracy (Train),Precision (Train),Recall (Train),F1 Score (Train)
+RandomForest,1.0,1.0,1.0,1.0
+GradientBoosting,1.0,1.0,1.0,1.0
+ExtraTrees,1.0,1.0,1.0,1.0
+MLP,0.912,0.9193175120908783,0.912,0.9148700088266535
+SVC,0.9104,0.911124397867255,0.9104,0.894324826677362
+XGBoost,1.0,1.0,1.0,1.0
