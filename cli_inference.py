@@ -80,8 +80,8 @@ def main(input_folder, output_folder, lulc_path):
     print(f"Processing complete. Classified images saved to {output_folder}")
 
     # Get classified files
-    list_pnp = glob.glob(os.path.join(output_folder, "*2class*.tif"))
-    list_3commodity = glob.glob(os.path.join(output_folder, "*3class*.tif"))
+    list_pnp = sorted(lob.glob(os.path.join(output_folder, "*2class*.tif")))
+    list_3commodity = sorted(glob.glob(os.path.join(output_folder, "*3class*.tif")))
 
     print("list_pnp:", list_pnp)
     print("list_3commodity:", list_3commodity)
